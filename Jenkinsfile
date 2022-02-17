@@ -2,11 +2,18 @@ node {
 	agent any
 	stages{
 		stage('Build') {
-			echo "Build"
-			echo "Environment Name Rachit is: "
+			steps{
+				echo "Build"
+				echo "Environment Name Rachit is: "
+			}
+			
 		}
 		stage('Test') {
-			echo "Test"
+			steps{
+				echo "Test"
+				echo "Environment Name Rachit is: "
+			}
+			
 		}
 	}
 	
