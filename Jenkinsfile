@@ -3,7 +3,7 @@ node {
 	stages{
 		stage('Build') {
 			echo "Build"
-			echo "Environment Name Rachit is: $env.JOB_NAME"
+			echo "Environment Name Rachit is: "
 		}
 		stage('Test') {
 			echo "Test"
